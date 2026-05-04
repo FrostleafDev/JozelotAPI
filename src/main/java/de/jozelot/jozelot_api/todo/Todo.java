@@ -5,6 +5,12 @@ public class Todo {
     private String task;
     private boolean done;
 
+    public Todo(Long id, String task, boolean done) {
+        this.id = id;
+        this.task = task;
+        this.done = done;
+    }
+
     public Long getId() {
         return id;
     }
